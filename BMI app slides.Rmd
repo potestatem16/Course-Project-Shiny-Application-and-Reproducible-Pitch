@@ -1,0 +1,30 @@
+---
+title: "BMI calculator app."
+author: "Manuel Diaz"
+output: ioslides_presentation
+---
+
+
+## BMI App
+This application tries to provide a quick method to know the BMI index, to which our characteristics of weight and height belong.
+
+## Method
+
+The method used to obtain the BMI index is: 
+$$ BMI = \frac{Weight}{Height^2}$$ 
+
+```{r}
+h <- 180
+w <- 80
+(BMI <- 80/((180/100)^2))
+```
+
+
+## Contraindications.
+BMI is not used for muscle builders, long distance athletes, pregnant women, the elderly or young children.
+
+## Links 
+
+[Github Repository.](https://github.com/potestatem16/Course-Project-Shiny-Application-and-Reproducible-Pitch)
+
+[Aplication](https://potestatem16.shinyapps.io/BMI_calculator/?_ga=2.157801786.1850926354.1596506857-1886901523.1596506857)
